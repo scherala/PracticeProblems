@@ -36,7 +36,7 @@ public class FindRangeOfTarget {
 						rightIdx = mid-1;
 					}
 				}else {
-					if(mid == array.length || array[mid+1] != target) {
+					if(mid == array.length-1 || array[mid+1] != target) {
 						result[1] = mid;
 						return;
 					}
